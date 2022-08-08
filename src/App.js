@@ -116,7 +116,7 @@ function App() {
       <div className="main">
         <div className="maintop">
         <div className="link">
-          <a href="https://homepage-mugid.vercel.app">
+          <a href="https://www.sbek22.xyz">
             <button><IoHome />Homepage</button>
           </a>
         </div>
