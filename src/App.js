@@ -40,13 +40,11 @@ const Page = styled.div`
   }
 
   .link button {
-    opacity: 70%;
     background-color: #30e6e0;
     gap: 4px;
     width: 30%;
     height: 80px;
     border: none;
-    box-shadow: 0 0 5px #30e6e0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,26 +60,8 @@ const Page = styled.div`
   }
 
   .link button:hover {
-    animation-name: bounce;
-    -moz-animation-name: bounce;
-  }
-
-  @keyframes bounce {
-    0%, 100%, 20%, 50%, 80% {
-      -webkit-transform: translateY(0);
-      -ms-transform:     translateY(0);
-      transform:         translateY(0)
-    }
-    40% {
-      -webkit-transform: translateY(-30px);
-      -ms-transform:     translateY(-30px);
-      transform:         translateY(-30px)
-    }
-    60% {
-      -webkit-transform: translateY(-15px);
-      -ms-transform:     translateY(-15px);
-      transform:         translateY(-15px)
-    }
+    transform: translateY(-5px);
+    transition-duration: 0.5s  
   }
 
   footer {
